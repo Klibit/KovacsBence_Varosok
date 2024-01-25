@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="25sp"
+        android:id="@+id/welcomeText"
         />
 
     <TextView
@@ -29,8 +30,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="200sp"
-        android:layout_gravity="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:id="@+id/listTextMainPage"
+        />
 
 
     <Button
@@ -39,6 +41,7 @@
         android:text="Listázás"
         android:layout_gravity="center"
         android:textSize="20sp"
+        android:id="@+id/listButtonMainPage"
         />
 
     <TextView
@@ -52,6 +55,7 @@
         android:layout_marginTop="200sp"
         android:layout_gravity="center"
         android:textSize="20sp"
+        android:id="@+id/addTextMainPage"
         />
 
     <Button
@@ -60,6 +64,7 @@
         android:layout_gravity="center"
         android:text="Új felvétele"
         android:textSize="20sp"
+        android:id="@+id/addButtonMainPage"
         />
 
 
