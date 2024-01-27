@@ -40,17 +40,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/addButtonAddPage"
         android:text="Új felvétele"
-        >
+        />
 
-    </Button>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/backButtonAddPage"
         android:text="Vissza"
-        >
+        />
 
-    </Button>
+
 
 </LinearLayout>

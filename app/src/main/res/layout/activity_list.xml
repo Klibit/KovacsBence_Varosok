@@ -21,8 +21,7 @@
         android:layout_below="@+id/listViewListPage"
         android:text="Vissza"
         android:layout_centerInParent="true"
-        >
+        />
 
-    </Button>
 
 </RelativeLayout>
