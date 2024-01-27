@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".List">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/editTextId"/>
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="550sp"
@@ -15,13 +20,14 @@
         />
 
     <Button
-        android:id="@+id/backButtonlistPage"
+        android:id="@+id/backButtonListPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/listViewListPage"
         android:text="Vissza"
         android:layout_centerInParent="true"
-        />
+        >
 
+    </Button>
 
 </RelativeLayout>

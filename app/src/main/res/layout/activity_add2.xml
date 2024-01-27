@@ -17,7 +17,11 @@
         android:layout_marginStart="25sp"
         android:layout_marginBottom="200sp"
         android:textSize="25sp"/>
-
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/editTextIdAddPage"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
